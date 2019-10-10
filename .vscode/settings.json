@@ -1,9 +1,0 @@
-{
-  "workbench.colorCustomizations": {
-    "titleBar.activeBackground": "#cb3837",
-    "titleBar.inactiveBackground": "#cb38379d",
-    "titleBar.activeForeground": "#f1f1f1",
-    "titleBar.inactiveForeground": "#f1f1f1CC"
-  },
-  "deepcode.review.results.hideInformationIssues": false
-}
