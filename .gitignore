@@ -3,3 +3,6 @@ node_modules/
 
 # Editor Configs
 .vscode/
+
+# Lock File
+package-lock.json
