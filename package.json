@@ -1,0 +1,25 @@
+{
+  "name": "@cryptopapers/prettier-config",
+  "version": "1.0.0",
+  "description": "A Prettier configuration conforming to the CryptoPapers style guide",
+  "main": "index.json",
+  "license": "MIT",
+  "keywords": [
+    "prettier",
+    "prettier-config"
+  ],
+  "author": {
+    "name": "Marek Rewers"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/crypto-papers/prettier-config"
+  },
+  "bugs": {
+    "url": "https://github.com/crypto-papers/prettier-config/issues"
+  },
+  "homepage": "https://github.com/crypto-papers/prettier-config#readme",
+  "peerDependencies": {
+    "prettier": "1.x"
+  }
+}
