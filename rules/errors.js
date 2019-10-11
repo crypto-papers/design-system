@@ -32,11 +32,11 @@ module.exports = {
     'no-func-assign': 'error',
     'no-import-assign': 'error',
     'no-inner-declarations': ['error', 'both'],
-    'no-invalid-regexp', [
+    'no-invalid-regexp': [
       'error',
       {
-        allowConstructorFlags: ['u', 'y']
-      }
+        allowConstructorFlags: ['u', 'y'],
+      },
     ],
     'no-irregular-whitespace': [
       'error',

@@ -52,11 +52,13 @@ module.exports = {
           array: true,
           object: false,
         },
-        enforceForRenamedProperties: false,
         VariableDeclarator: {
           array: false,
           object: true,
         },
+      },
+      {
+        enforceForRenamedProperties: false,
       },
     ],
     'prefer-numeric-literals': 'error',

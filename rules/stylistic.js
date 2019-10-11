@@ -114,13 +114,7 @@ module.exports = {
         defaultAssignment: true,
       },
     ],
-    'one-var': [
-      'error',
-      'never',
-      {
-        separateRequires: true,
-      },
-    ],
+    'one-var': ['error', 'never'],
     'operator-assignment': ['error', 'always'],
     'padding-line-between-statements': [
       'error',
