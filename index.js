@@ -1,19 +1,29 @@
 'use strict';
 
+const rules = [
+  './rules/bestPractices',
+  './rules/errors',
+  './rules/es6',
+  './rules/nodeCommon',
+  './rules/strict',
+  './rules/stylistic',
+  './rules/variables',
+  './rules/prettier',
+].map(require.resolve);
+
+const thirdPartyPackages = ['eslint-config-prettier'];
+
 module.exports = {
-  extends: ['eslint-config-prettier'],
-  rules: {
-    // The following address stylistic rules that Prettier leaves to somewhat open the user's discretion.
-    // For more details see: https://github.com/prettier/eslint-config-prettier#special-rules
-    'arrow-body-style': 0,
-    'curly': 0,
-    'lines-around-comment': 0,
-    'max-len': 0,
-    'no-confusing-arrow': 0,
-    'no-mixed-operators': 0,
-    'no-tabs': 0,
-    'no-unexpected-multiline': 0,
-    'prefer-arrow-callback': 0,
-    'quotes': 0,
+  extends: rules.concat(thirdPartyPackages),
+  env: {
+    browser: true,
   },
+  parserOptions: {
+    ecmaFeatures: {
+      jsx: true,
+    },
+    ecmaVersion: 2018,
+    sourceType: 'module',
+  },
+  rules: {},
 };
