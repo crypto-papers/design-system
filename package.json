@@ -1,6 +1,6 @@
 {
   "name": "@cryptopapers/eslint-config",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "An ESLint configuration conforming to the CryptoPapers style guide",
   "license": "MIT",
   "main": "index.json",
@@ -21,17 +21,18 @@
   },
   "homepage": "https://github.com/crypto-papers/eslint-config#readme",
   "prettier": "@cryptopapers/prettier-config",
-  "devDependencies": {
-    "@cryptopapers/prettier-config": "^1.0.0",
-    "eslint": "^6.5.1",
+  "dependencies": {
     "eslint-config-prettier": "^6.4.0",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.16.0",
-    "eslint-plugin-react-hooks": "^2.1.2",
+    "eslint-plugin-react-hooks": "^2.1.2"
+  },
+  "devDependencies": {
+    "@cryptopapers/prettier-config": "^1.0.0",
+    "eslint": "^6.5.1",
     "prettier": "^1.18.2"
   },
   "peerDependencies": {
-    "eslint": ">=6",
-    "prettier": "^1.18.2"
+    "eslint": ">=6"
   }
 }
