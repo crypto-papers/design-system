@@ -86,24 +86,24 @@ module.exports = {
     'no-restricted-syntax': [
       'error',
       {
-        selector: 'ForInStatement',
         message:
           'for..in loops iterate over the entire prototype chain, which is virtually never what you want. Use Object.{keys,values,entries}, and iterate over the resulting array.',
+        selector: 'ForInStatement',
       },
       {
-        selector: 'ForOfStatement',
         message:
           'iterators/generators require regenerator-runtime, which is too heavyweight for this guide to allow them. Separately, loops should be avoided in favor of array iterations.',
+        selector: 'ForOfStatement',
       },
       {
-        selector: 'LabeledStatement',
         message:
           'Labels are a form of GOTO; using them makes code confusing and hard to maintain and understand.',
+        selector: 'LabeledStatement',
       },
       {
-        selector: 'WithStatement',
         message:
           '`with` is disallowed in strict mode because it makes code impossible to predict and optimize.',
+        selector: 'WithStatement',
       },
     ],
     'no-ternary': 'off',
@@ -120,33 +120,33 @@ module.exports = {
       'error',
       {
         blankLine: 'always',
-        prev: 'directive',
         next: '*',
+        prev: 'directive',
       },
       {
         blankLine: 'any',
-        prev: 'directive',
         next: 'directive',
+        prev: 'directive',
       },
       {
         blankLine: 'always',
-        prev: ['cjs-import', 'const', 'function', 'let', 'var'],
         next: '*',
+        prev: ['cjs-import', 'const', 'function', 'let', 'var'],
       },
       {
         blankLine: 'any',
-        prev: ['const', 'let', 'var'],
         next: ['const', 'let', 'var'],
+        prev: ['const', 'let', 'var'],
       },
       {
         blankLine: 'any',
-        prev: ['cjs-import'],
         next: ['cjs-import'],
+        prev: ['cjs-import'],
       },
       {
         blankLine: 'always',
-        prev: '*',
         next: 'return',
+        prev: '*',
       },
     ],
     'prefer-object-spread': 'error',
@@ -164,11 +164,11 @@ module.exports = {
       'error',
       'always',
       {
-        exceptions: ['-', '+', '*'],
-        markers: [':', '::'], // support for Flow comment types
         block: {
           balanced: true,
         },
+        exceptions: ['-', '+', '*'],
+        markers: [':', '::'], // Support for Flow comment types
       },
     ],
   },

@@ -18,7 +18,7 @@ module.exports = {
     ],
     'block-scoped-var': 'error',
     'class-methods-use-this': 'error',
-    'complexity': ['warn', 15],
+    'complexity': ['warn', 15], // eslint-disable-line no-magic-numbers
     'consistent-return': 'error',
     'default-case': [
       'error',
@@ -86,17 +86,17 @@ module.exports = {
     'no-param-reassign': [
       'error',
       {
-        props: true,
         ignorePropertyModificationsFor: [
-          'acc', // reduce accumulators
-          'accumulator', // reduce accumulators
-          'e', // e.returnvalue
+          'acc', // Reduce accumulators
+          'accumulator', // Reduce accumulators
+          'e', // For e.returnvalue
           'ctx', // Koa routing
           'req', // Express requests
           'request', // Express requests
           'res', // Express responses
           'response', // Express responses
         ],
+        props: true,
       },
     ],
     'no-proto': 'error',
@@ -105,52 +105,52 @@ module.exports = {
     'no-restricted-properties': [
       'error',
       {
+        message: 'arguments.callee is deprecated',
         object: 'arguments',
         property: 'callee',
-        message: 'arguments.callee is deprecated',
       },
       {
+        message: 'Please use Number.isFinite instead',
         object: 'global',
         property: 'isFinite',
-        message: 'Please use Number.isFinite instead',
       },
       {
+        message: 'Please use Number.isFinite instead',
         object: 'self',
         property: 'isFinite',
-        message: 'Please use Number.isFinite instead',
       },
       {
+        message: 'Please use Number.isFinite instead',
         object: 'window',
         property: 'isFinite',
-        message: 'Please use Number.isFinite instead',
       },
       {
+        message: 'Please use Number.isNaN instead',
         object: 'global',
         property: 'isNaN',
-        message: 'Please use Number.isNaN instead',
       },
       {
+        message: 'Please use Number.isNaN instead',
         object: 'self',
         property: 'isNaN',
-        message: 'Please use Number.isNaN instead',
       },
       {
+        message: 'Please use Number.isNaN instead',
         object: 'window',
         property: 'isNaN',
-        message: 'Please use Number.isNaN instead',
       },
       {
+        message: 'Please use Object.defineProperty instead.',
         property: '__defineGetter__',
-        message: 'Please use Object.defineProperty instead.',
       },
       {
+        message: 'Please use Object.defineProperty instead.',
         property: '__defineSetter__',
-        message: 'Please use Object.defineProperty instead.',
       },
       {
+        message: 'Use the exponentiation operator (**) instead.',
         object: 'Math',
         property: 'pow',
-        message: 'Use the exponentiation operator (**) instead.',
       },
     ],
     'no-return-assign': ['error', 'always'],
@@ -184,8 +184,8 @@ module.exports = {
     'no-warning-comments': [
       'warn',
       {
-        terms: ['fixme', 'todo', 'xxx'],
         location: 'start',
+        terms: ['fixme', 'todo', 'xxx'],
       },
     ],
     'no-with': 'error',

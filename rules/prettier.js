@@ -46,6 +46,7 @@ module.exports = {
     'no-mixed-operators': [
       'error',
       {
+        allowSamePrecedence: true,
         groups: [
           ['%', '**'],
           ['%', '+'],
@@ -56,7 +57,6 @@ module.exports = {
           ['==', '!=', '===', '!=='],
           ['&&', '||'],
         ],
-        allowSamePrecedence: true,
       },
     ],
     'no-tabs': 'error',
@@ -72,8 +72,8 @@ module.exports = {
       'error',
       'single',
       {
-        avoidEscape: true,
         allowTemplateLiterals: false,
+        avoidEscape: true,
       },
     ],
   },
