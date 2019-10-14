@@ -1,23 +1,23 @@
 'use strict';
 
 const rules = [
-  './rules/bestPractices',
-  './rules/errors',
-  './rules/es6',
-  './rules/nodeCommon',
-  './rules/strict',
-  './rules/stylistic',
-  './rules/variables',
-  './rules/prettier',
+  './rules/base/bestPractices',
+  './rules/base/errors',
+  './rules/base/es6',
+  './rules/base/nodeCommon',
+  './rules/base/strict',
+  './rules/base/stylistic',
+  './rules/base/variables',
+  './rules/prettier/prettier',
 ].map(require.resolve);
 
 const thirdPartyPackages = ['eslint-config-prettier'];
 
 module.exports = {
-  extends: rules.concat(thirdPartyPackages),
   env: {
     browser: true,
   },
+  extends: rules.concat(thirdPartyPackages),
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
