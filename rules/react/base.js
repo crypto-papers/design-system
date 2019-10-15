@@ -1,6 +1,7 @@
 'use strict';
 
 module.exports = {
+  plugins: ['eslint-plugin-react'],
   rules: {
     'react/boolean-prop-naming': [
       'warn',
