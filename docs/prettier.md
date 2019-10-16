@@ -2,6 +2,8 @@
 
 The following rules are turned off by default by [Prettier's ESLint config](https://github.com/prettier/eslint-config-prettier) (as of version 6.4.0).
 
+## Base
+
 ### Best Practices:
 
 - dot-location
@@ -89,3 +91,21 @@ The following rules are turned off by default by [Prettier's ESLint config](http
 - space-in-brackets
 - space-return-throw-case
 - space-unary-word-ops
+
+## React Plugin
+
+- react/jsx-child-element-spacing
+- react/jsx-closing-bracket-location
+- react/jsx-closing-tag-location
+- react/jsx-curly-newline
+- react/jsx-curly-spacing
+- react/jsx-equals-spacing
+- react/jsx-first-prop-new-line
+- react/jsx-indent
+- react/jsx-indent-props
+- react/jsx-max-props-per-line
+- react/jsx-one-expression-per-line
+- react/jsx-props-no-multi-spaces
+- react/jsx-space-before-closing
+- react/jsx-tag-spacing
+- react/jsx-wrap-multilines
