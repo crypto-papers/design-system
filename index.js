@@ -8,6 +8,7 @@ const rules = [
   './rules/base/strict',
   './rules/base/stylistic',
   './rules/base/variables',
+  './rules/import/index.js',
   './rules/prettier/prettier',
 ].map(require.resolve);
 
