@@ -69,7 +69,7 @@ module.exports = {
     'no-lone-blocks': 'error',
     'no-loop-func': 'error',
     'no-magic-numbers': [
-      'warn',
+      'off', // Got to be annoying
       {
         detectObjects: false,
         enforceConst: true,

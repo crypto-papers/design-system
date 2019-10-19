@@ -35,7 +35,7 @@ module.exports = {
     'import/no-unassigned-import': [
       'error',
       {
-        allow: ['*.css', '*.sass', '*.scss'],
+        allow: ['**/*.css', '**/*.sass', '**/*.scss'],
       },
     ],
     'import/order': [
