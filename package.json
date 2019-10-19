@@ -13,7 +13,7 @@
     "eslint-config"
   ],
   "scripts": {
-    "test": "node test/*.test.js | tap-spec"
+    "test": "tape test/**/*.test.js | tap-spec"
   },
   "repository": {
     "type": "git",
