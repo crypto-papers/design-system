@@ -12,6 +12,9 @@
     "eslint",
     "eslint-config"
   ],
+  "scripts": {
+    "test": "node test/*.test.js | tap-spec"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/crypto-papers/eslint-config"
@@ -31,7 +34,9 @@
   "devDependencies": {
     "@cryptopapers/prettier-config": "^1.0.0",
     "eslint": "^6.5.1",
-    "prettier": "^1.18.2"
+    "prettier": "^1.18.2",
+    "tap-spec": "^5.0.0",
+    "tape": "^4.11.0"
   },
   "peerDependencies": {
     "eslint": ">=6"
