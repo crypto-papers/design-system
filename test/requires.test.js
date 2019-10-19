@@ -21,7 +21,7 @@ test('Ensure that required plugins are included.', t => {
 
   t.test('- Import plugins:', i => {
     i.deepEqual(rulesImport.plugins, ['eslint-plugin-import'], `A11y ${msg}`);
-    
+
     i.end();
   });
 
@@ -29,9 +29,9 @@ test('Ensure that required plugins are included.', t => {
     r.deepEqual(ruleA11y.plugins, ['eslint-plugin-jsx-a11y'], `A11y ${msg}`);
     r.deepEqual(rulesHooks.plugins, ['eslint-plugin-react-hooks'], `React hooks ${msg}`);
     r.deepEqual(rulesReact.plugins, ['eslint-plugin-react'], `React ${msg}`);
-    
+
     r.end();
-  })
+  });
 
   t.end();
-})
+});

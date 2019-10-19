@@ -6,3 +6,7 @@ node_modules/
 
 # Lock File
 package-lock.json
+
+# Test coverage
+.nyc_output/
+coverage/

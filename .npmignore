@@ -13,3 +13,7 @@ package-lock.json
 # NPM
 .npmrc
 npm-debug.log
+
+# Test coverage
+.nyc_output/
+coverage/
