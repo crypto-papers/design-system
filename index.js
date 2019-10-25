@@ -17,6 +17,7 @@ const thirdPartyPackages = ['eslint-config-prettier'];
 module.exports = {
   env: {
     browser: true,
+    es6: true,
   },
   extends: rules.concat(thirdPartyPackages),
   parserOptions: {
