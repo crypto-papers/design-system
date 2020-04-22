@@ -1,7 +1,5 @@
 'use strict';
 
-const reactVersion = '16.10.2';
-
 const rules = [
   './rules/react/a11y',
   './rules/react/base',
@@ -13,10 +11,15 @@ const thirdPartyPackages = ['eslint-config-prettier/react'];
 
 module.exports = {
   extends: rules.concat(thirdPartyPackages),
-  rules: {},
+  parserOptions: {
+    ecmaFeatures: {
+      jsx: true,
+    },
+  },
+  plugins: ['eslint-plugin-react'],
   settings: {
     react: {
-      version: reactVersion,
+      version: 'detect',
     },
   },
 };
