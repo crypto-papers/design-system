@@ -10,17 +10,15 @@ const rules = [
   './rules/base/stylistic',
   './rules/base/variables',
   './rules/import/index.js',
-  './rules/prettier/prettier',
+  './rules/prettier/core',
+  './rules/prettier/configurable',
 ].map(require.resolve);
-
-const thirdPartyPackages = ['eslint-config-prettier'];
 
 module.exports = {
   env: {
     browser: true,
     es6: true,
   },
-  extends: rules.concat(thirdPartyPackages),
   parserOptions: {
     ecmaVersion: 2018,
     sourceType: 'module',

@@ -20,6 +20,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - Moved JSX `ecmaFeatures` listing to React config and changed React version from fixed number to `detect`
 - Disabled the `sort-imports` rule as controls are not fine-grained enough, causing more problems than it solved.
 - Explicitly disable deprecated rules
+- Switch from eslint-config-prettier to customized ruleset that matches Prettier's settings
 
 ## [0.1.0](https://github.com/crypto-papers/eslint-config/compare/0.0.1...0.1.0) - 2019-10-15
 
