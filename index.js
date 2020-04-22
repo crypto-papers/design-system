@@ -1,6 +1,7 @@
 'use strict';
 
 const rules = [
+  './rules/deprecated/deprecated',
   './rules/base/bestPractices',
   './rules/base/errors',
   './rules/base/es6',
