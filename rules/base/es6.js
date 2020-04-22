@@ -66,15 +66,21 @@ module.exports = {
     'prefer-spread': 'error',
     'prefer-template': 'error',
     'require-yield': 'error',
-    'sort-imports': [
-      'error',
-      {
-        ignoreCase: false,
-        ignoreDeclarationSort: true,
-        ignoreMemberSort: false,
-        memberSyntaxSortOrder: ['single', 'multiple', 'all', 'none'],
-      },
-    ],
+    'sort-imports': 'off', // Rule not refined enough for our liking
+    /*
+     * Here is the closest approximation of what we'd like to achieve with the available options:
+     *
+     * 'sort-imports': [
+     *   'error',
+     *   {
+     *     ignoreCase: false,
+     *     ignoreDeclarationSort: true,
+     *     ignoreMemberSort: false,
+     *     memberSyntaxSortOrder: ['single', 'multiple', 'all', 'none'],
+     *   },
+     * ],
+     *
+     */
     'symbol-description': 'error',
   },
 };
