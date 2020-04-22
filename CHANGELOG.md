@@ -6,8 +6,17 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased](https://github.com/crypto-papers/eslint-config/compare/0.1.0...HEAD)
 
+### Added:
+
+- Initial unit tests
+- Test coverage reporting
+
 ### Changed:
 
+- Adjusted several default rules
+  - Disabled `no-magic-numbers`
+  - Corrected `import/no-unassigned-import` to allow for unnamed CSS imports
+  - Fixed typo in module exports for react hooks rules
 - Moved JSX `ecmaFeatures` listing to React config and changed React version from fixed number to `detect`
 - Disabled the `sort-imports` rule as controls are not fine-grained enough, causing more problems than it solved.
 
