@@ -25,22 +25,27 @@
   },
   "homepage": "https://github.com/crypto-papers/eslint-config#readme",
   "prettier": "@cryptopapers/prettier-config",
-  "dependencies": {
-    "eslint-config-prettier": "^6.4.0",
-    "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-react": "^7.16.0",
-    "eslint-plugin-react-hooks": "^2.1.2"
-  },
+  "reportUnusedDisableDirectives": true,
   "devDependencies": {
     "@cryptopapers/prettier-config": "^1.0.0",
-    "eslint": "^6.5.1",
+    "eslint": "^6.8.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-prettier": "^3.1.3",
     "nyc": "^14.1.1",
-    "prettier": "^1.18.2",
+    "prettier": "^2.0.5",
     "tap-spec": "^5.0.0",
-    "tape": "^4.11.0"
+    "tape": "^4.13.2"
   },
   "peerDependencies": {
-    "eslint": ">=6"
+    "eslint": "^6.8.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-prettier": "^3.1.3",
+    "prettier": "^2.0.5"
+  },
+  "optionalDependencies": {
+    "@typescript-eslint/parser": "^2.29.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react-hooks": "^2.5.1"
   }
 }
