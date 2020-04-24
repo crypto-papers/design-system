@@ -31,7 +31,7 @@ module.exports = {
     'import/no-duplicates': 'error',
     'import/no-named-default': 'error',
     'import/no-named-export': 'off',
-    'import/no-namespace': 'warn',
+    'import/no-namespace': 'off',
     'import/no-unassigned-import': [
       'error',
       {
@@ -41,13 +41,9 @@ module.exports = {
     'import/order': [
       'error',
       {
-        groups: [
-          'builtin',
-          'external',
-          ['index', 'internal', 'parent', 'sibling']
-        ],
-        'newlines-between': 'always'
-      }
+        'groups': ['builtin', 'external', ['index', 'internal', 'parent', 'sibling']],
+        'newlines-between': 'always',
+      },
     ],
     'import/prefer-default-export': 'error',
   },

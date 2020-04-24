@@ -7,7 +7,7 @@ module.exports = {
     'react/jsx-filename-extension': [
       'error',
       {
-        extensions: ['.js', '.jsx', '.mdx'],
+        extensions: ['.js', '.jsx', '.mdx', '.ts', '.tsx'],
       },
     ],
     'react/jsx-fragments': ['error', 'element'],
