@@ -1,4 +1,8 @@
 'use strict';
+/**
+ * Rules to help avoid possible syntax or logic errors.
+ *
+ */
 
 module.exports = {
   rules: {

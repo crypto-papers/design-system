@@ -1,4 +1,8 @@
 'use strict';
+/**
+ * Rules for code running in Node.js or other CommonJS environment.
+ *
+ */
 
 module.exports = {
   env: {

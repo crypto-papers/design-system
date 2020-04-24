@@ -1,4 +1,8 @@
 'use strict';
+/**
+ * Static analysis
+ *
+ */
 
 module.exports = {
   rules: {
@@ -15,9 +19,9 @@ module.exports = {
     'import/no-unresolved': [
       'error',
       {
-        'amd': true,
-        'commonjs': true,
-      }
+        amd: true,
+        commonjs: true,
+      },
     ],
     'import/no-useless-path-segments': [
       'error',

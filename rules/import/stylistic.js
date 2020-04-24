@@ -1,4 +1,8 @@
 'use strict';
+/**
+ * Rules pertaining to style guidelines.
+ *
+ */
 
 module.exports = {
   rules: {

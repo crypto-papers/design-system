@@ -1,4 +1,8 @@
 'use strict';
+/**
+ * Rules dealing with features introduced in ES2015 or greater.
+ *
+ */
 
 module.exports = {
   env: {

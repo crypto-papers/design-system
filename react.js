@@ -1,4 +1,8 @@
 'use strict';
+/**
+ * Entrypoint for the React linting configuration.
+ *
+ */
 
 const rules = [
   './rules/react/a11y',

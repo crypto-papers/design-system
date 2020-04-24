@@ -1,4 +1,8 @@
 'use strict';
+/**
+ * Entrypoint for the base linting configuration.
+ *
+ */
 
 const rules = [
   './rules/deprecated/deprecated',
@@ -23,5 +27,4 @@ module.exports = {
     ecmaVersion: 2018,
     sourceType: 'module',
   },
-  rules: {},
 };

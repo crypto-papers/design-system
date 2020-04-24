@@ -1,4 +1,8 @@
 'use strict';
+/**
+ * Module system
+ *
+ */
 
 module.exports = {
   rules: {

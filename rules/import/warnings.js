@@ -1,4 +1,8 @@
 'use strict';
+/**
+ * Helpful warnings
+ *
+ */
 
 module.exports = {
   rules: {

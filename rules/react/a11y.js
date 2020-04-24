@@ -1,4 +1,8 @@
 'use strict';
+/**
+ * Enforces React accessibility rules.
+ *
+ */
 
 module.exports = {
   plugins: ['eslint-plugin-jsx-a11y'],

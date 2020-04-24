@@ -1,4 +1,7 @@
 'use strict';
+/**
+ * Base React rules.
+ */
 
 module.exports = {
   rules: {

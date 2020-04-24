@@ -1,4 +1,8 @@
 'use strict';
+/**
+ * JSX-specific rules from the react-eslint-plugin.
+ *
+ */
 
 module.exports = {
   rules: {

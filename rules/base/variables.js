@@ -1,4 +1,8 @@
 'use strict';
+/**
+ * Rules relating to variable declarations.
+ *
+ */
 
 const confusingGlobals = require('./confusingGlobals');
 

@@ -1,4 +1,8 @@
 'use strict';
+/**
+ * Enables/disables strict mode.
+ *
+ */
 
 module.export = {
   rules: {

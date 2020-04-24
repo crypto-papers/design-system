@@ -1,4 +1,8 @@
 'use strict';
+/**
+ * A set of ESLint rules related to better ways of doing things.
+ *
+ */
 
 module.exports = {
   rules: {

@@ -1,4 +1,9 @@
-// Disable ESLint rules handled by Prettier.
+'use strict';
+/**
+ * ESLint lint rules disabled since they are handled by Prettier.
+ *
+ */
+
 module.exports = {
   plugins: ['eslint-plugin-prettier'],
   rules: {

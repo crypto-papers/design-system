@@ -1,4 +1,8 @@
 'use strict';
+/**
+ * TypeScript rules handled by Prettier.
+ *
+ */
 
 module.exports = {
   rules: {
