@@ -14,6 +14,7 @@ const rules = [
   './rules/base/stylistic',
   './rules/base/variables',
   './rules/import/import',
+  './rules/jest/jest',
   './rules/prettier/core',
   './rules/prettier/configurable',
 ].map(require.resolve);
