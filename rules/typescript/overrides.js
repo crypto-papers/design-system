@@ -7,20 +7,23 @@
  */
 
 module.exports = {
-  overrides: {
-    files: ['.ts', '.tsx'],
-    rules: {
-      'default-param-last': 'off',
-      'no-array-constructor': 'off',
-      'no-dupe-class-members': 'off',
-      'no-empty-function': 'off',
-      'no-magic-numbers': 'off',
-      'no-unused-expressions': 'off',
-      'no-unused-vars': 'off',
-      'no-use-before-define': 'off',
-      'no-useless-constructor': 'off',
-      'require-await': 'off',
-      'return-await': 'off',
+  overrides: [
+    {
+      files: ['.ts', '.tsx'],
+      rules: {
+        'default-param-last': 'off',
+        'no-array-constructor': 'off',
+        'no-dupe-class-members': 'off',
+        'no-empty-function': 'off',
+        'no-magic-numbers': 'off',
+        'no-unused-expressions': 'off',
+        'no-unused-vars': 'off',
+        'no-use-before-define': 'off',
+        'no-useless-constructor': 'off',
+        'require-await': 'off',
+        'return-await': 'off',
+        'react/prop-types': 'error',
+      },
     },
-  },
+  ],
 };

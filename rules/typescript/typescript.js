@@ -29,7 +29,7 @@ module.exports = {
         'ts-check': true,
       },
     ],
-    '@typescript-eslint/ban-types ': [
+    '@typescript-eslint/ban-types': [
       'error',
       {
         types: {
@@ -133,14 +133,7 @@ module.exports = {
     '@typescript-eslint/no-throw-literal': 'error',
     '@typescript-eslint/no-type-alias': 'error',
     '@typescript-eslint/no-unnecessary-boolean-literal-compare': 'error',
-    '@typescript-eslint/no-unnecessary-condition': [
-      'error',
-      {
-        allowConstantLoopCondition: false,
-        checkArrayPredicates: false,
-        ignoreRhs: false,
-      },
-    ],
+    '@typescript-eslint/no-unnecessary-condition': 'error',
     '@typescript-eslint/no-unnecessary-qualifier': 'error',
     '@typescript-eslint/no-unnecessary-type-arguments': 'error',
     '@typescript-eslint/no-unnecessary-type-assertion': 'error',
@@ -156,7 +149,7 @@ module.exports = {
     ],
     '@typescript-eslint/no-var-requires': 'error',
     '@typescript-eslint/prefer-as-const': 'error',
-    '@typescript-eslint/prefer-for-of ': 'error',
+    '@typescript-eslint/prefer-for-of': 'error',
     '@typescript-eslint/prefer-function-type': 'error',
     '@typescript-eslint/prefer-includes': 'error',
     '@typescript-eslint/prefer-namespace-keyword': 'error',

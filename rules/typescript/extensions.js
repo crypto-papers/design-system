@@ -61,7 +61,7 @@ module.exports = {
       },
     ], // RULE #1856
     '@typescript-eslint/no-useless-constructor': 'error',
-    '@typescript-eslint/require-await': ['error', 'always'],
-    '@typescript-eslint/return-await': 'error',
+    '@typescript-eslint/require-await': 'error',
+    '@typescript-eslint/return-await': ['error', 'always'],
   },
 };
