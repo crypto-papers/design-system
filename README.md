@@ -13,8 +13,8 @@ Run the following command from the root of your project to install the config an
 This config depends on a number of ESLint plugins and other libraries to function properly. Below are the commands to run to install the required dependencies for each of the possible configurations.
 
 - **Base Config:** `npm i -D eslint-plugin-import eslint-plugin-jest eslint-plugin-prettier prettier`
-- **React:** `npm i -D @typescript-eslint/eslint-plugin @typescript-eslint/parser typescript`
-- **TypeScript:** `npm i -D eslint-plugin-jsx-a11y eslint-plugin-react eslint-plugin-react-hooks`
+- **React:** `npm i -D eslint-plugin-jsx-a11y eslint-plugin-react eslint-plugin-react-hooks`
+- **TypeScript:** `npm i -D @typescript-eslint/eslint-plugin @typescript-eslint/parser typescript`
 
 ## Usage
 

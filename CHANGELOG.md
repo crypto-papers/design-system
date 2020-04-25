@@ -6,6 +6,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased](https://github.com/crypto-papers/eslint-config/compare/v1.0.0...HEAD)
 
+_This sections lists changes commited to master since most recent release_
+
+## [v1.0.1](https://github.com/crypto-papers/eslint-config/compare/v1.0.0...v1.0.1) - 2020-04-25
+
+### Changed:
+
+- Corrected typo in readme that switched the React and TypeScript dependencies
+- Set NPM access to be public by default
+
 ## [v1.0.0](https://github.com/crypto-papers/eslint-config/compare/v0.1.0...v1.0.0) - 2020-04-25
 
 ### Added:
