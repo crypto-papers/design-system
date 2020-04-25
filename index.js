@@ -13,7 +13,7 @@ const rules = [
   './rules/base/strict',
   './rules/base/stylistic',
   './rules/base/variables',
-  './rules/import/index.js',
+  './rules/import/import',
   './rules/prettier/core',
   './rules/prettier/configurable',
 ].map(require.resolve);
