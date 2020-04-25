@@ -219,19 +219,7 @@ module.exports = {
         lib: 'never',
       },
     ],
-    '@typescript-eslint/typedef': [
-      'error',
-      {
-        arrayDestructuring: true,
-        arrowParameter: true,
-        memberVariableDeclaration: true,
-        objectDestructuring: true,
-        parameter: true,
-        propertyDeclaration: true,
-        variableDeclaration: true,
-        variableDeclarationIgnoreFunction: true,
-      },
-    ],
+    '@typescript-eslint/typedef': 'off', // Too burdensome
     '@typescript-eslint/unbound-method': [
       'error',
       {
