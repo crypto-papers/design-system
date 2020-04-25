@@ -9,12 +9,11 @@ const rules = [
   './rules/react/base',
   './rules/react/hooks',
   './rules/react/jsx',
+  './rules/prettier/react',
 ].map(require.resolve);
 
-const thirdPartyPackages = ['eslint-config-prettier/react'];
-
 module.exports = {
-  extends: rules.concat(thirdPartyPackages),
+  extends: rules,
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
