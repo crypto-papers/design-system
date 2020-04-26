@@ -8,6 +8,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 _This sections lists changes commited to master since most recent release_
 
+### Changed:
+
+- Set `react/prop-types` to `off` in TypeScript overrides file, previously set to `error`
+
 ## [v1.0.1](https://github.com/crypto-papers/eslint-config/compare/v1.0.0...v1.0.1) - 2020-04-25
 
 ### Changed:

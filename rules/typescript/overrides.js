@@ -22,7 +22,7 @@ module.exports = {
         'no-useless-constructor': 'off',
         'require-await': 'off',
         'return-await': 'off',
-        'react/prop-types': 'error',
+        'react/prop-types': 'off',
       },
     },
   ],
