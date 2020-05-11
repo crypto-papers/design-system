@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/crypto-papers/prettier-config#readme",
   "peerDependencies": {
-    "prettier": "1.x"
+    "prettier": "^2.0.5"
   }
 }
