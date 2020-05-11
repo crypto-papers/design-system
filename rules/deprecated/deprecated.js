@@ -12,6 +12,17 @@
 module.exports = {
   /* eslint-disable sort-keys */
   rules: {
+    'callback-return': 'off', // ESLint - v7.0.0 - eslint-plugin-node
+    'global-require': 'off', // ESLint - v7.0.0 - eslint-plugin-node
+    'handle-callback-err': 'off', // ESLint - v7.0.0 - eslint-plugin-node
+    'no-buffer-constructor': 'off', // ESLint - v7.0.0 - eslint-plugin-node
+    'no-mixed-requires': 'off', // ESLint - v7.0.0 - eslint-plugin-node
+    'no-new-require': 'off', // ESLint - v7.0.0 - eslint-plugin-node
+    'no-path-concat': 'off', // ESLint - v7.0.0 - eslint-plugin-node
+    'no-process-env': 'off', // ESLint - v7.0.0 - eslint-plugin-node
+    'no-process-exit': 'off', // ESLint - v7.0.0 - eslint-plugin-node
+    'no-restricted-modules': 'off', // ESLint - v7.0.0 - eslint-plugin-node
+    'no-sync': 'off', // ESLint - v7.0.0 - eslint-plugin-node
     'require-jsdoc': 'off', // ESLint - v5.10.0
     'valid-jsdoc': 'off', // ESLint - v5.10.0
     'no-catch-shadow': 'off', // ESLint - v5.1.0 - no-shadow

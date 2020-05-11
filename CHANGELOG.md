@@ -6,11 +6,26 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased](https://github.com/crypto-papers/eslint-config/compare/v1.0.0...HEAD)
 
-_This sections lists changes commited to master since most recent release_
+_This sections lists changes committed to master since most recent release_
+
+### Added:
+
+- New rules from ESLint v7.0.0 release, namely:
+  - `default-case-last`
+  - `no-useless-backreference`
+  - `no-restricted-exports`
+- Missing rules from ESLint v6.7.0 release, specifically:
+  - `grouped-accessor-pairs`
+  - `no-constructor-return`
+  - `no-dupe-else-if`
+  - `no-setter-return`
+  - `prefer-exponentiation-operator`
 
 ### Changed:
 
+- Updated dependencies, including ESLint to v7.0.0
 - Set `react/prop-types` to `off` in TypeScript overrides file, previously set to `error`
+- Deprecated the Node ESLint rules, as they are have been supplanted with eslint-plugin-node
 
 ## [v1.0.1](https://github.com/crypto-papers/eslint-config/compare/v1.0.0...v1.0.1) - 2020-04-25
 
