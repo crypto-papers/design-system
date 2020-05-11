@@ -153,6 +153,7 @@ module.exports = {
         prev: '*',
       },
     ],
+    'prefer-exponentiation-operator': 'error',
     'prefer-object-spread': 'error',
     'sort-keys': [
       'warn',

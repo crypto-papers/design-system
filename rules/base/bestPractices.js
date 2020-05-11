@@ -30,6 +30,7 @@ module.exports = {
         commentPattern: '^skip\\sdefault',
       },
     ],
+    'default-case-last': 'error',
     'default-param-last': 'error',
     'dot-notation': [
       'error',
@@ -38,11 +39,13 @@ module.exports = {
       },
     ],
     'eqeqeq': ['error', 'smart'],
+    'grouped-accessor-pairs': ['error', 'setBeforeGet'],
     'guard-for-in': 'error',
     'max-classes-per-file': ['error', 1],
     'no-alert': 'error',
     'no-caller': 'error',
     'no-case-declarations': 'error',
+    'no-constructor-return': 'error',
     'no-div-regex': 'error',
     'no-else-return': [
       'error',
