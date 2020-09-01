@@ -1,0 +1,17 @@
+{
+  "name": "@cryptopapers/commitlint-config",
+  "version": "0.0.1",
+  "description": "An commitlint configuration conforming to the CryptoPapers style guide",
+  "main": "index.js",
+  "keywords": [
+    "cryptopapers",
+    "commitlint",
+    "commitlint-config",
+    "conventional-changelog"
+  ],
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Marek Rewers",
+  "license": "MIT"
+}
