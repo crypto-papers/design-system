@@ -1,6 +1,6 @@
 module.exports = {
   extends: ['@cryptopapers/commitlint-config'],
   rules: {
-    'scope-enum': [2, 'always', ['commitlint']],
+    'scope-enum': [2, 'always', ['commitlint', 'eslint', 'prettier']],
   },
 };
