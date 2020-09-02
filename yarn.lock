@@ -415,9 +415,6 @@
   resolved "https://registry.yarnpkg.com/@commitlint/types/-/types-9.1.2.tgz#d05f66db03e3a3638a654e8badf2deb489eb220d"
   integrity sha512-r3fwVbVH+M8W0qYlBBZFsUwKe6NT5qvz+EmU7sr8VeN1cQ63z+3cfXyTo7WGGEMEgKiT0jboNAK3b1FZp8k9LQ==
 
-"@cryptopapers/commitlint-config@file:packages/commitlint-config":
-  version "0.0.1"
-
 "@cryptopapers/eslint-config@^1.0.1":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@cryptopapers/eslint-config/-/eslint-config-1.0.1.tgz#eead21d46c3304df4b3ab2e75f1f3194e540c468"
