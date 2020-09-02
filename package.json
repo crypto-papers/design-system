@@ -8,7 +8,7 @@
     "packages/*"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest ./"
   },
   "author": "Marek Rewers",
   "license": "MIT",
@@ -19,6 +19,7 @@
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-jest": "^23.20.0",
     "eslint-plugin-prettier": "^3.1.4",
+    "jest": "^26.4.2",
     "prettier": "^2.1.1"
   },
   "prettier": "@cryptopapers/prettier-config"
