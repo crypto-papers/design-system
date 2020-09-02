@@ -13,14 +13,22 @@
   "author": "Marek Rewers",
   "license": "MIT",
   "devDependencies": {
+    "@commitlint/cli": "^9.1.2",
+    "@cryptopapers/commitlint-config": "file:packages/commitlint-config",
     "@cryptopapers/eslint-config": "^1.0.1",
     "@cryptopapers/prettier-config": "^1.0.0",
     "eslint": "^7.8.0",
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-jest": "^23.20.0",
     "eslint-plugin-prettier": "^3.1.4",
+    "husky": "^4.2.5",
     "jest": "^26.4.2",
     "prettier": "^2.1.1"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
   },
   "prettier": "@cryptopapers/prettier-config"
 }
