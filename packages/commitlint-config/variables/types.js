@@ -9,7 +9,7 @@ const defaultTypes = [
   'Refactor',
   'Release',
   'Revert',
-  'Security',
+  'Sec',
   'Test',
 ];
 
