@@ -1,15 +1,16 @@
 const defaultTypes = [
-  'build',
-  'chore',
-  'config',
-  'docs',
-  'feat',
-  'fix',
-  'perf',
-  'refactor',
-  'release',
-  'revert',
-  'test',
+  'Build',
+  'Chore',
+  'Config',
+  'Docs',
+  'Feat',
+  'Fix',
+  'Perf',
+  'Refactor',
+  'Release',
+  'Revert',
+  'Security',
+  'Test',
 ];
 
 module.exports = {
