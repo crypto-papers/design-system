@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+
+# Editor Configs
+.vscode/
+
+# Git
+.git/
+
+# Lock File
+package-lock.json
+
+# NPM
+.npmrc
+npm-debug.log
+
+# Test coverage
+.nyc_output/
+coverage/
