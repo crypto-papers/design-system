@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "description": "An ESLint configuration conforming to the CryptoPapers style guide",
   "license": "MIT",
-  "main": "index.json",
+  "main": "index.js",
   "author": {
     "name": "Marek Rewers"
   },
@@ -19,12 +19,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/crypto-papers/eslint-config"
+    "url": "https://github.com/crypto-papers/design-system",
+    "directory": "packages/eslint-config"
   },
   "bugs": {
-    "url": "https://github.com/crypto-papers/eslint-config/issues"
+    "url": "https://github.com/crypto-papers/design-system/issues"
   },
-  "homepage": "https://github.com/crypto-papers/eslint-config#readme",
+  "homepage": "https://github.com/crypto-papers/design-system#readme",
   "prettier": "@cryptopapers/prettier-config",
   "reportUnusedDisableDirectives": true,
   "devDependencies": {

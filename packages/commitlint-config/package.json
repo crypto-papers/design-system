@@ -9,6 +9,15 @@
     "commitlint-config",
     "conventional-changelog"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/crypto-papers/design-system",
+    "directory": "packages/commitlint-config"
+  },
+  "bugs": {
+    "url": "https://github.com/crypto-papers/design-system/issues"
+  },
+  "homepage": "https://github.com/crypto-papers/design-system#readme",
   "scripts": {
     "test": "test"
   },
