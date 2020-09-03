@@ -1,4 +1,9 @@
 {
+  "command": {
+    "version": {
+      "message": "Release: Version packages"
+    }
+  },
   "npmClient": "yarn",
   "packages": ["packages/*"],
   "useWorkspaces": true,
