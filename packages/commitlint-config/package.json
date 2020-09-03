@@ -1,6 +1,6 @@
 {
   "name": "@cryptopapers/commitlint-config",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "An commitlint configuration conforming to the CryptoPapers style guide",
   "main": "index.js",
   "keywords": [
