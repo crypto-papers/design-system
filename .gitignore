@@ -4,5 +4,12 @@
 # Dependencies
 node_modules/
 
+# Editor Configs
+.vscode/
+
+# Lock Files
+package-lock.json
+
 # Testing
+.nyc_output/
 coverage/
