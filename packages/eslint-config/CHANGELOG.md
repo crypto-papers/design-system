@@ -20,6 +20,7 @@ _This sections lists changes committed to master since most recent release_
   - `no-dupe-else-if`
   - `no-setter-return`
   - `prefer-exponentiation-operator`
+- Environment support for `node` and `serviceworkers` in the default config
 
 ### Changed:
 

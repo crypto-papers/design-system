@@ -1,4 +1,5 @@
 'use strict';
+
 /**
  * Entry point for the base linting configuration.
  *
@@ -22,7 +23,10 @@ module.exports = {
   env: {
     browser: true,
     es6: true,
+    node: true,
+    serviceworker: true,
   },
+  extends: rules,
   parserOptions: {
     ecmaVersion: 2018,
     sourceType: 'module',
