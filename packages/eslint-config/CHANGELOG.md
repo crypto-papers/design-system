@@ -29,6 +29,10 @@ _This sections lists changes committed to master since most recent release_
 - Move from package from it's own repository into the CryptoPapers Design System monorepo
 - Run tests using Jest from the monorepo root
 
+### Fixed:
+
+- Append `jest/` prefix to all rules in the Jest ruleset
+
 ## [v1.0.1](https://github.com/crypto-papers/eslint-config/compare/v1.0.0...v1.0.1) - 2020-04-25
 
 ### Changed:
