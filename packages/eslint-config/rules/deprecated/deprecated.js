@@ -1,4 +1,5 @@
 'use strict';
+
 /**
  * Deprecated rules listed in reverse chronological order relative to their
  * deprecation date and annotated with the following information:
@@ -12,6 +13,7 @@
 module.exports = {
   /* eslint-disable sort-keys */
   rules: {
+    'id-blacklist': 'off', // ESLint - v7.4.0 - id-denylist'
     'callback-return': 'off', // ESLint - v7.0.0 - eslint-plugin-node
     'global-require': 'off', // ESLint - v7.0.0 - eslint-plugin-node
     'handle-callback-err': 'off', // ESLint - v7.0.0 - eslint-plugin-node
