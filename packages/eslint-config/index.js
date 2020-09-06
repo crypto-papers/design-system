@@ -28,7 +28,10 @@ module.exports = {
   },
   extends: rules,
   parserOptions: {
-    ecmaVersion: 2018,
+    ecmaFeatures: {
+      impliedStrict: true,
+    },
+    ecmaVersion: 2020,
     sourceType: 'module',
   },
   settings: {

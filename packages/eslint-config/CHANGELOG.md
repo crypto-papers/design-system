@@ -25,6 +25,7 @@ _This sections lists changes committed to master since most recent release_
 ### Changed:
 
 - Updated dependencies, including ESLint to v7.0.0
+- Upgrade ECMAVersion to 2020 and enable implied strict mode
 - Set `react/prop-types` to `off` in TypeScript overrides file, previously set to `error`
 - Deprecated the Node ESLint rules, as they are have been supplanted with eslint-plugin-node
 - Move `id-blacklist` ESLint rule to the deprecated list
