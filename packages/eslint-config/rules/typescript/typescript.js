@@ -1,4 +1,5 @@
 'use strict';
+
 /**
  * Base TypeScript rules.
  *
@@ -23,10 +24,10 @@ module.exports = {
     '@typescript-eslint/ban-ts-comment': [
       'warn',
       {
+        'ts-check': true,
         'ts-expect-error': true,
         'ts-ignore': true,
         'ts-nocheck': true,
-        'ts-check': true,
       },
     ],
     '@typescript-eslint/ban-types': [
@@ -34,8 +35,8 @@ module.exports = {
       {
         types: {
           String: {
-            message: 'Use string instead',
             fixWith: 'string',
+            message: 'Use string instead',
           },
         },
       },
@@ -53,8 +54,8 @@ module.exports = {
       'error',
       {
         allowExpressions: false,
-        allowTypedFunctionExpressions: true,
         allowHigherOrderFunctions: true,
+        allowTypedFunctionExpressions: true,
       },
     ],
     '@typescript-eslint/explicit-member-accessibility': 'error',
@@ -197,26 +198,19 @@ module.exports = {
     '@typescript-eslint/restrict-template-expressions': [
       'error',
       {
-        allowNumber: true,
         allowBoolean: false,
         allowNullable: false,
+        allowNumber: true,
       },
     ],
-    '@typescript-eslint/strict-boolean-expressions': [
-      'error',
-      {
-        allowNullable: true,
-        allowSafe: false,
-        ignoreRhs: false,
-      },
-    ],
+    '@typescript-eslint/strict-boolean-expressions': 'error',
     '@typescript-eslint/switch-exhaustiveness-check': 'error',
     '@typescript-eslint/triple-slash-reference': [
       'error',
       {
+        lib: 'never',
         path: 'never',
         types: 'prefer-import',
-        lib: 'never',
       },
     ],
     '@typescript-eslint/typedef': 'off', // Too burdensome

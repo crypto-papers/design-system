@@ -1,4 +1,5 @@
 'use strict';
+
 /**
  * Entrypoint for the TypeScript linting configuration.
  *

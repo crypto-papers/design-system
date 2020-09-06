@@ -35,6 +35,8 @@ _This sections lists changes committed to master since most recent release_
 ### Fixed:
 
 - Append `jest/` prefix to all rules in the Jest ruleset
+- Use imported rules to extend the default config
+- Remove incorrect options object from `@typescript-eslint/strict-boolean-expressions` rule
 
 ## [v1.0.1](https://github.com/crypto-papers/eslint-config/compare/v1.0.0...v1.0.1) - 2020-04-25
 
