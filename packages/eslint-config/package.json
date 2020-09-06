@@ -12,11 +12,6 @@
     "eslint",
     "eslint-config"
   ],
-  "scripts": {
-    "coverage": "nyc npm run test",
-    "lint": "eslint",
-    "test": "tape test/**/*.test.js | tap-spec"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/crypto-papers/design-system",
@@ -35,10 +30,7 @@
     "eslint-plugin-jest": "^23.16.0",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prettier": "^3.1.4",
-    "nyc": "^15.1.0",
     "prettier": "^2.0.5",
-    "tap-spec": "^5.0.0",
-    "tape": "^5.0.1"
   },
   "optionalDependencies": {
     "@typescript-eslint/eslint-plugin": "^3.4.0",

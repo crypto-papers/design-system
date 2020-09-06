@@ -1,4 +1,4 @@
-# Changelog
+# Change Log
 
 All notable changes to this project will be documented in this file.
 
@@ -26,6 +26,8 @@ _This sections lists changes committed to master since most recent release_
 - Updated dependencies, including ESLint to v7.0.0
 - Set `react/prop-types` to `off` in TypeScript overrides file, previously set to `error`
 - Deprecated the Node ESLint rules, as they are have been supplanted with eslint-plugin-node
+- Move from package from it's own repository into the CryptoPapers Design System monorepo
+- Run tests using Jest from the monorepo root
 
 ## [v1.0.1](https://github.com/crypto-papers/eslint-config/compare/v1.0.0...v1.0.1) - 2020-04-25
 
