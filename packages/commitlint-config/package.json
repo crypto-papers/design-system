@@ -18,9 +18,6 @@
     "url": "https://github.com/crypto-papers/design-system/issues"
   },
   "homepage": "https://github.com/crypto-papers/design-system#readme",
-  "scripts": {
-    "test": "test"
-  },
   "author": "Marek Rewers",
   "license": "MIT"
 }
