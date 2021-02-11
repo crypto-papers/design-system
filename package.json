@@ -4,20 +4,20 @@
   "description": "",
   "main": "index.js",
   "private": true,
-  "workspaces": [
-    "packages/*"
-  ],
   "scripts": {
     "lerna": "lerna version",
     "test": "jest ./"
   },
   "author": "Marek Rewers",
   "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ],
   "devDependencies": {
     "@commitlint/cli": "^9.1.2",
-    "@cryptopapers/commitlint-config": "file:packages/commitlint-config",
-    "@cryptopapers/eslint-config": "^1.0.1",
-    "@cryptopapers/prettier-config": "^1.0.0",
+    "@cryptopapers/commitlint-config": "workspace:*",
+    "@cryptopapers/eslint-config": "workspace:*",
+    "@cryptopapers/prettier-config": "workspace:*",
     "eslint": "^7.8.1",
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-jest": "^24.0.0",

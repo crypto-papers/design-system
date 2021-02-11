@@ -7,11 +7,17 @@
 # Dependencies
 node_modules/
 
+# Dependency Management
+.pnp.*
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+package-lock.json
+
 # Editor Configs
 .vscode/
-
-# Lock Files
-package-lock.json
 
 # Testing
 .nyc_output/
