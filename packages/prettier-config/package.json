@@ -23,5 +23,8 @@
   "homepage": "https://github.com/crypto-papers/design-system#readme",
   "peerDependencies": {
     "prettier": "^2.1.1"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

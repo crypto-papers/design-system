@@ -12,6 +12,7 @@ _This sections lists changes committed to master since most recent release_
 
 - Set an explicit value for the embedded language formatting rule (matches the default value of `auto`)
 - Set the Vue files script and style tags indentation rule to `false`
+- Set publishConfig access to public
 
 ### Changed:
 
