@@ -4,7 +4,7 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased](https://github.com/crypto-papers/eslint-config/compare/v1.0.0...HEAD)
+## [Unreleased](https://github.com/crypto-papers/eslint-config/compare/v1.0.1...HEAD)
 
 _This sections lists changes committed to master since most recent release_
 
@@ -26,7 +26,7 @@ _This sections lists changes committed to master since most recent release_
 ### Changed:
 
 - Updated dependencies, including ESLint to v7.0.0
-- Upgrade ECMAVersion to 2020 and enable implied strict mode
+- Upgrade ECMAVersion to 2021, enable implied strict mode, and disallow return statements in the global scope
 - Set `react/prop-types` to `off` in TypeScript overrides file, previously set to `error`
 - Deprecated the Node ESLint rules, as they are have been supplanted with eslint-plugin-node
 - Move `id-blacklist` ESLint rule to the deprecated list
