@@ -22,3 +22,6 @@ package-lock.json
 # Testing
 .nyc_output/
 coverage/
+
+# Misc
+.DS_Store
