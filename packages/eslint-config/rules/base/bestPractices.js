@@ -79,15 +79,17 @@ module.exports = {
       'off', // Got to be annoying
       {
         detectObjects: false,
-        enforceConst: true,
+        enforceConst: false,
         ignore: [1],
         ignoreArrayIndexes: true,
+        ignoreDefaultValues: true,
       },
     ],
     'no-multi-str': 'error',
     'no-new': 'error',
     'no-new-func': 'error',
     'no-new-wrappers': 'error',
+    'no-nonoctal-decimal-escape': 'error',
     'no-octal': 'error',
     'no-octal-escape': 'error',
     'no-param-reassign': [
@@ -179,6 +181,7 @@ module.exports = {
         allowShortCircuit: true,
         allowTaggedTemplates: true,
         allowTernary: true,
+        enforceForJSX: false,
       },
     ],
     'no-unused-labels': 'error',

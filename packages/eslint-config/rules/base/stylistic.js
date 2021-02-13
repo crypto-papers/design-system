@@ -10,6 +10,7 @@ module.exports = {
       'error',
       {
         ignoreDestructuring: false,
+        ignoreGlobals: false,
         properties: 'always',
       },
     ],

@@ -10,6 +10,13 @@ _This sections lists changes committed to master since most recent release_
 
 ### Added:
 
+- New rule from ESLint v7.14.0 release, namely:
+  - `no-nonoctal-decimal-escape`
+- New rules from ESLint v7.1.0 release, namely:
+  - `no-promise-executor-return`
+  - `no-unreachable-loop`
+- New rule from ESLint v7.1.0 release, namely:
+  - `no-loss-of-precision`
 - New rules from ESLint v7.0.0 release, namely:
   - `default-case-last`
   - `no-useless-backreference`
@@ -22,10 +29,12 @@ _This sections lists changes committed to master since most recent release_
   - `prefer-exponentiation-operator`
 - Missing deprecated rule `indent-legacy`
 - Environment support for `node` and `serviceworkers` in the default config
+- The `ignoreGlobals` property to the `camelcase` rule
 
 ### Changed:
 
-- Updated dependencies, including ESLint to v7.0.0
+- Re-enabled the `sort-imports` rule, with the hope the `allowSeparatedGroups` property introduced in v7.5.0 will fix our concerns with it
+- Updated dependencies, including ESLint to v7.20.0
 - Upgrade ECMAVersion to 2021, enable implied strict mode, and disallow return statements in the global scope
 - Set `react/prop-types` to `off` in TypeScript overrides file, previously set to `error`
 - Deprecated the Node ESLint rules, as they are have been supplanted with eslint-plugin-node
