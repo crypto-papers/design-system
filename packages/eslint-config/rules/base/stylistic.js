@@ -1,4 +1,5 @@
 'use strict';
+
 /**
  * Rules pertaining to style guidelines.
  *
@@ -40,7 +41,7 @@ module.exports = {
       },
     ],
     'func-style': ['warn', 'expression'],
-    'id-blacklist': 'off',
+    'id-denylist': 'off',
     'id-length': 'off',
     'id-match': 'off',
     'line-comment-position': 'off',
