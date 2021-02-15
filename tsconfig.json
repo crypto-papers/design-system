@@ -5,7 +5,9 @@
     "moduleResolution": "node",
     "lib": ["dom", "es2015"],
     "module": "es2015",
-    "outDir": "./lib",
+    "outDir": "./packages/component-library/lib",
+    "strictNullChecks": true,
     "target": "es2015",
-  }
+  },
+  "include": ["packages/component-library/**/*"]
 }
