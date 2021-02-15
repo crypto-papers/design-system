@@ -6,9 +6,9 @@ describe('Default config', () => {
   });
 
   it('includes the commitlint rulesets', () => {
-    const rules = defaultConfig.rules;
+    const { rules } = defaultConfig;
 
-    expect(typeof rules).toEqual('object');
+    expect(typeof rules).toStrictEqual('object');
     expect(Object.keys(rules)).toHaveLength(28);
   });
 });

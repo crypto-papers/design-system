@@ -9,7 +9,7 @@ describe('Ruleset for commit bodies', () => {
     const { rules } = bodyRuleset;
 
     expect(rules).toBeDefined();
-    expect(typeof rules).toEqual('object');
+    expect(typeof rules).toStrictEqual('object');
     expect(Object.keys(rules)).toHaveLength(4);
   });
 });

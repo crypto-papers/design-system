@@ -9,7 +9,7 @@ describe('Miscellaneous rules', () => {
     const { rules } = miscRuleset;
 
     expect(rules).toBeDefined();
-    expect(typeof rules).toEqual('object');
+    expect(typeof rules).toStrictEqual('object');
     expect(Object.keys(rules)).toHaveLength(2);
   });
 });
