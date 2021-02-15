@@ -7,7 +7,7 @@
   "scripts": {
     "lint": "eslint --ext .js ./",
     "postinstall": "husky install config/husky",
-    "test": "jest ./"
+    "test": "yarn workspaces foreach run test"
   },
   "author": "Marek Rewers",
   "license": "MIT",
