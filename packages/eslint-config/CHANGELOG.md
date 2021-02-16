@@ -41,6 +41,7 @@ _This sections lists changes committed to master since most recent release_
 - Move `id-blacklist` ESLint rule to the deprecated list
 - Move from package from it's own repository into the CryptoPapers Design System monorepo
 - Run tests using Jest from the monorepo root
+- Allow Pascal casing in TypeScript variable definitions to permit standard React component naming conventions
 
 ### Fixed:
 

@@ -69,7 +69,27 @@ module.exports = {
     ],
     '@typescript-eslint/member-ordering': 'error',
     '@typescript-eslint/method-signature-style': ['error', 'property'],
-    '@typescript-eslint/naming-convention': 'error',
+    '@typescript-eslint/naming-convention': [
+      'error',
+      {
+        format: ['camelCase'],
+        leadingUnderscore: 'allow',
+        selector: 'default',
+        trailingUnderscore: 'allow',
+      },
+
+      {
+        format: ['camelCase', 'PascalCase', 'UPPER_CASE'],
+        leadingUnderscore: 'allow',
+        selector: 'variable',
+        trailingUnderscore: 'allow',
+      },
+
+      {
+        format: ['PascalCase'],
+        selector: 'typeLike',
+      },
+    ],
     '@typescript-eslint/no-base-to-string': 'error',
     '@typescript-eslint/no-dynamic-delete': 'error',
     '@typescript-eslint/no-empty-interface': [
