@@ -1,4 +1,5 @@
 'use strict';
+
 /**
  * ESLint lint rules disabled since they are handled by Prettier.
  *
@@ -31,8 +32,8 @@ module.exports = {
     'keyword-spacing': 'off',
     'linebreak-style': 'off',
     'multiline-ternary': 'off',
-    'newline-per-chained-call': 'off',
     'new-parens': 'off',
+    'newline-per-chained-call': 'off',
     'no-extra-parens': 'off',
     'no-extra-semi': 'off',
     'no-floating-decimal': 'off',

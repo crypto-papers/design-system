@@ -1,6 +1,7 @@
 'use strict';
+
 /**
- * Entrypoint for the React linting configuration.
+ * Entry point for the React linting configuration.
  *
  */
 

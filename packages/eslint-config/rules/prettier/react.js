@@ -1,4 +1,5 @@
 'use strict';
+
 /**
  * React rules handled by Prettier.
  *

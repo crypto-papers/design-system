@@ -1,4 +1,5 @@
 'use strict';
+
 /**
  * Base React rules.
  */

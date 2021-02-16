@@ -1,4 +1,5 @@
 'use strict';
+
 /*
  * A list of browser globals not recommended to use without an explicit window qualifier.
  * Inspired by the confusing-browser-globals package found at:

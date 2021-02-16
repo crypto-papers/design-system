@@ -1,4 +1,5 @@
 'use strict';
+
 /**
  * JSX-specific rules from the react-eslint-plugin.
  *

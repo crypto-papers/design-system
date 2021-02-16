@@ -1,4 +1,5 @@
 'use strict';
+
 /**
  * Rules relating to variable declarations.
  *

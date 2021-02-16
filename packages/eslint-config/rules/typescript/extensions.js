@@ -1,4 +1,5 @@
 'use strict';
+
 /**
  * The following rules address certain ESLint rules that do not support TypeScript syntax
  * These rules provide the same functionality, but also supports TypeScript.
@@ -16,7 +17,7 @@
  *   - @typescript-eslint/semi
  *   - @typescript-eslint/space-before-function-paren
  *
- * The rules @typescript-eslint/no-unused-vars and @typescript-eslint/no-use-before-define apparently
+ * The rules @typescript-eslint/no-unused-vars & @typescript-eslint/no-use-before-define apparently
  * have some issues with the scope analyzer. Fully described in the following issue:
  * https://github.com/typescript-eslint/typescript-eslint/issues/1856
  *

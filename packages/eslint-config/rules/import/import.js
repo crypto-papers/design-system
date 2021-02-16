@@ -1,4 +1,5 @@
 'use strict';
+
 /**
  * Entry point for import linting configuration.
  *

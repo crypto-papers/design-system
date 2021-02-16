@@ -1,4 +1,5 @@
 'use strict';
+
 /**
  * TypeScript rules handled by Prettier.
  *

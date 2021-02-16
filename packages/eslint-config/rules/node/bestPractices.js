@@ -1,4 +1,5 @@
 'use strict';
+
 /**
  * A set of Node rules related to better ways of doing things.
  *

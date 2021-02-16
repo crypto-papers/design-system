@@ -1,4 +1,5 @@
 'use strict';
+
 /**
  * Enforces React accessibility rules.
  *

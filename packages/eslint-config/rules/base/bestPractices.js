@@ -1,4 +1,5 @@
 'use strict';
+
 /**
  * A set of ESLint rules related to better ways of doing things.
  *
@@ -110,9 +111,8 @@ module.exports = {
     ],
     'no-proto': 'error',
     'no-redeclare': 'error',
-    // The following list of restricted properties derived from AirBNB's base lint config
     'no-restricted-properties': [
-      'error',
+      'error', // The following list of restricted properties derived from AirBNB's base lint config
       {
         message: 'arguments.callee is deprecated',
         object: 'arguments',

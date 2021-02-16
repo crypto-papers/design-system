@@ -1,6 +1,7 @@
 'use strict';
+
 /**
- * Static analysis
+ * Static analysis.
  *
  */
 

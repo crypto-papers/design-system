@@ -10,8 +10,8 @@
  *
  */
 
+/* eslint-disable sort-keys */
 module.exports = {
-  /* eslint-disable sort-keys */
   rules: {
     'id-blacklist': 'off', // ESLint - v7.4.0 - id-denylist'
     'callback-return': 'off', // ESLint - v7.0.0 - eslint-plugin-node
@@ -37,5 +37,5 @@ module.exports = {
     'no-negated-in-lhs': 'off', // ESLint - v3.3.0 - no-unsafe-negation
     'no-spaced-func': 'off', // ESLint - v3.3.0 - func-call-spacing
   },
-  /* eslint-enable sort-keys */
 };
+/* eslint-enable sort-keys */
