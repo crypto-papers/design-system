@@ -1,13 +1,12 @@
 'use strict';
 
 /**
- * Entrypoint for the TypeScript linting configuration.
+ * Entry point for the TypeScript linting configuration.
  *
  */
 
-const { overrides } = require('./rules/typescript/overrides');
-
 const rules = [
+  './rules/typescript/overrides',
   './rules/typescript/import',
   './rules/typescript/typescript',
   './rules/typescript/extensions',
@@ -16,7 +15,6 @@ const rules = [
 
 module.exports = {
   extends: rules,
-  overrides,
   parser: '@typescript-eslint/parser',
   parserOptions: {
     project: './tsconfig.json',
