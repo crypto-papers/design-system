@@ -1,6 +1,6 @@
 {
   "name": "@cryptopapers/eslint-config",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "An ESLint configuration conforming to the CryptoPapers style guide",
   "license": "MIT",
   "main": "index.js",

@@ -8,7 +8,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 _This sections lists changes committed to master since most recent release_
 
-## [v1.1.0](https://github.com/crypto-papers/design-system/tree/main/packages/prettier-config)
+## [v1.1.0](https://github.com/crypto-papers/design-system/tree/prettier-config%401.1.0)
 
 ### Added:
 
