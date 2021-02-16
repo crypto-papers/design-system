@@ -1,13 +1,11 @@
 'use strict';
+
 /**
  * Rules dealing with features introduced in ES2015 or greater.
  *
  */
 
 module.exports = {
-  env: {
-    es6: true,
-  },
   rules: {
     'constructor-super': 'error',
     'no-class-assign': 'error',

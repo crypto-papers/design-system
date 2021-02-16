@@ -1,13 +1,11 @@
 'use strict';
+
 /**
  * Rules for code running in Node.js or other CommonJS environment.
  *
  */
 
 module.exports = {
-  env: {
-    node: true,
-  },
   rules: {
     'node/handle-callback-err': ['error', '^.*(e|E)rr'],
     'node/no-callback-literal': 'error',

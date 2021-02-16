@@ -1,9 +1,6 @@
 'use strict';
 
 module.exports = {
-  env: {
-    jest: true,
-  },
   plugins: ['eslint-plugin-jest'],
   rules: {
     'jest/consistent-test-it': 'error',
