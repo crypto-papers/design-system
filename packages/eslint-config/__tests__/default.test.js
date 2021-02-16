@@ -8,6 +8,8 @@ const stylisticRuleset = require('../rules/base/stylistic');
 const variablesRuleset = require('../rules/base/variables');
 const importRuleset = require('../rules/import/import.js');
 const nodeRuleset = require('../rules/node/node.js');
+const prettierCoreRuleset = require('../rules/prettier/core.js');
+const prettierConfigurableRuleset = require('../rules/prettier/configurable.js');
 
 describe('Default config', () => {
   it('loads without error', () => {
@@ -40,6 +42,8 @@ describe('Default config', () => {
     expect(env).toBeDefined();
     expect(env.browser).toStrictEqual(true);
     expect(env.es6).toStrictEqual(true);
+    expect(env.jest).toStrictEqual(true);
+    expect(env.node).toStrictEqual(true);
     expect(env.serviceworker).toStrictEqual(true);
   });
 
@@ -48,8 +52,9 @@ describe('Default config', () => {
     const { ecmaVersion } = defaultConfig.parserOptions;
     const { sourceType } = defaultConfig.parserOptions;
 
+    expect(ecmaFeatures.globalReturn).toStrictEqual(false);
     expect(ecmaFeatures.impliedStrict).toStrictEqual(true);
-    expect(ecmaVersion).toStrictEqual(2020);
+    expect(ecmaVersion).toStrictEqual(2021);
     expect(sourceType).toStrictEqual('module');
   });
 });
@@ -71,6 +76,7 @@ describe('Errors ruleset', () => {
     expect(() => errorsRuleset).not.toThrow();
   });
 });
+
 describe('ES6 base ruleset', () => {
   it('loads without error', () => {
     expect(() => es6Ruleset).not.toThrow();
@@ -104,5 +110,19 @@ describe('Import ruleset', () => {
 describe('Node ruleset', () => {
   it('loads without error', () => {
     expect(() => nodeRuleset).not.toThrow();
+  });
+});
+
+describe('Prettier ruleset', () => {
+  it('loads without error', () => {
+    expect(() => prettierCoreRuleset).not.toThrow();
+    expect(() => prettierConfigurableRuleset).not.toThrow();
+  });
+
+  it('loads the Prettier ESLint plugin', () => {
+    const { plugins } = prettierCoreRuleset;
+
+    expect(plugins).toHaveLength(1);
+    expect(plugins).toContain('eslint-plugin-prettier');
   });
 });

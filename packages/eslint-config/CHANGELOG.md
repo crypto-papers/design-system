@@ -30,6 +30,7 @@ _This sections lists changes committed to master since most recent release_
 - Missing deprecated rule `indent-legacy` and imports rule `import/no-import-module-exports`
 - Environment support for `jest`, `node`, and `serviceworkers` in the default config
 - The `ignoreGlobals` property to the `camelcase` rule
+- Tests for the React and TypeScript rule sets
 
 ### Changed:
 
