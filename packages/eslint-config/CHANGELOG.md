@@ -8,7 +8,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 _This sections lists changes committed to master since most recent release_
 
-## [v2.0.0](https://github.com/crypto-papers/design-system/tree/prettier-config%402.0.0) - 2021-02-15
+## [v2.0.1](https://github.com/crypto-papers/design-system/tree/eslint-config%402.0.1/packages/eslint-config) 2021-02-20
+
+### Fixed:
+
+- Correctly place the TypeScript `import/extensions` override in rules rather than settings
+- Put all TypeScript settings options into the root TypeScript config file
+
+## [v2.0.0](https://github.com/crypto-papers/design-system/tree/eslint-config%402.0.0/packages/eslint-config) - 2021-02-15
 
 ### Added:
 
@@ -52,14 +59,14 @@ _This sections lists changes committed to master since most recent release_
 - Use imported rules to extend the default config
 - Remove incorrect options object from `@typescript-eslint/strict-boolean-expressions` rule
 
-## [v1.0.1](https://github.com/crypto-papers/eslint-config/compare/v1.0.0...v1.0.1) - 2020-04-25
+## [v1.0.1](https://github.com/crypto-papers/design-system/tree/eslint-config%401.0.1) - 2020-04-25
 
 ### Changed:
 
 - Corrected typo in readme that switched the React and TypeScript dependencies
 - Set NPM access to be public by default
 
-## [v1.0.0](https://github.com/crypto-papers/eslint-config/compare/v0.1.0...v1.0.0) - 2020-04-25
+## [v1.0.0](https://github.com/crypto-papers/design-system/tree/eslint-config%401.0.0) - 2020-04-25
 
 ### Added:
 
@@ -86,7 +93,7 @@ _This sections lists changes committed to master since most recent release_
 - Split the dependencies to be installed by users into peerDependencies for those absolutely necessary and optionalDependencies for those required by optional sub-packages
 - Update readme to document configuring for TypeScript support and installing peer dependencies
 
-## [v0.1.0](https://github.com/crypto-papers/eslint-config/compare/v0.0.1...v0.1.0) - 2019-10-15
+## [v0.1.0](https://github.com/crypto-papers/design-system/tree/eslint-config%400.1.0) - 2019-10-15
 
 ### Added:
 
@@ -95,7 +102,7 @@ _This sections lists changes committed to master since most recent release_
 - List of ESLint React plugin rules disabled by Prettier
 - A changelog and readme
 
-## [v0.0.1](https://github.com/crypto-papers/eslint-config/releases/tag/v0.0.1) - 2019-10-13 [Initial Release]
+## [v0.0.1](https://github.com/crypto-papers/design-system/tree/eslint-config%400.0.1) - 2019-10-13 [Initial Release]
 
 ### Added:
 
