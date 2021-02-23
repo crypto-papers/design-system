@@ -30,6 +30,7 @@ module.exports = {
         'ts-nocheck': true,
       },
     ],
+    '@typescript-eslint/ban-tslint-comment': 'error',
     '@typescript-eslint/ban-types': [
       'error',
       {
@@ -42,6 +43,7 @@ module.exports = {
       },
     ],
     '@typescript-eslint/class-literal-property-style': 'error',
+    '@typescript-eslint/consistent-indexed-object-style': ['error', 'record'],
     '@typescript-eslint/consistent-type-assertions': [
       'error',
       {
@@ -50,6 +52,13 @@ module.exports = {
       },
     ],
     '@typescript-eslint/consistent-type-definitions': ['error', 'interface'],
+    '@typescript-eslint/consistent-type-imports': [
+      'error',
+      {
+        disallowTypeAnnotations: true,
+        prefer: 'type-imports',
+      },
+    ],
     '@typescript-eslint/explicit-function-return-type': [
       'error',
       {
@@ -91,6 +100,14 @@ module.exports = {
       },
     ],
     '@typescript-eslint/no-base-to-string': 'error',
+    '@typescript-eslint/no-confusing-non-null-assertion': 'error',
+    '@typescript-eslint/no-confusing-void-expression': [
+      'error',
+      {
+        ignoreArrowShorthand: true,
+        ignoreVoidOperator: false,
+      },
+    ],
     '@typescript-eslint/no-dynamic-delete': 'error',
     '@typescript-eslint/no-empty-interface': [
       'error',
@@ -123,12 +140,19 @@ module.exports = {
       },
     ],
     '@typescript-eslint/no-for-in-array': 'error',
-    '@typescript-eslint/no-implied-eval': 'error',
+    '@typescript-eslint/no-implicit-any-catch': 'error',
     '@typescript-eslint/no-inferrable-types': [
       'error',
       {
         ignoreParameters: false,
         ignoreProperties: false,
+      },
+    ],
+    '@typescript-eslint/no-invalid-void-type': [
+      'error',
+      {
+        allowAsThisParameter: false,
+        allowInGenericTypeArguments: true,
       },
     ],
     '@typescript-eslint/no-misused-new': 'error',
@@ -151,13 +175,13 @@ module.exports = {
     '@typescript-eslint/no-parameter-properties': 'error',
     '@typescript-eslint/no-require-imports': 'error',
     '@typescript-eslint/no-this-alias': 'error',
-    '@typescript-eslint/no-throw-literal': 'error',
     '@typescript-eslint/no-type-alias': 'error',
     '@typescript-eslint/no-unnecessary-boolean-literal-compare': 'error',
     '@typescript-eslint/no-unnecessary-condition': 'error',
     '@typescript-eslint/no-unnecessary-qualifier': 'error',
     '@typescript-eslint/no-unnecessary-type-arguments': 'error',
     '@typescript-eslint/no-unnecessary-type-assertion': 'error',
+    '@typescript-eslint/no-unnecessary-type-constraint': 'error',
     '@typescript-eslint/no-unsafe-assignment': 'error',
     '@typescript-eslint/no-unsafe-call': 'error',
     '@typescript-eslint/no-unsafe-member-access': 'error',
@@ -169,10 +193,13 @@ module.exports = {
       },
     ],
     '@typescript-eslint/no-var-requires': 'error',
+    '@typescript-eslint/non-nullable-type-assertion-style': 'error',
     '@typescript-eslint/prefer-as-const': 'error',
+    '@typescript-eslint/prefer-enum-initializers': 'error',
     '@typescript-eslint/prefer-for-of': 'error',
     '@typescript-eslint/prefer-function-type': 'error',
     '@typescript-eslint/prefer-includes': 'error',
+    '@typescript-eslint/prefer-literal-enum-member': 'error',
     '@typescript-eslint/prefer-namespace-keyword': 'error',
     '@typescript-eslint/prefer-nullish-coalescing': [
       'error',
@@ -190,9 +217,10 @@ module.exports = {
       },
     ],
     '@typescript-eslint/prefer-readonly-parameter-types': [
-      'error',
+      'warn',
       {
         checkParameterProperties: true,
+        ignoreInferredTypes: false,
       },
     ],
     '@typescript-eslint/prefer-reduce-type-parameter': 'error',
@@ -221,6 +249,27 @@ module.exports = {
         allowBoolean: false,
         allowNullable: false,
         allowNumber: true,
+      },
+    ],
+    '@typescript-eslint/sort-type-union-intersection-members': [
+      'error',
+      {
+        checkIntersections: true,
+        checkUnions: true,
+        groupOrder: [
+          'named',
+          'keyword',
+          'operator',
+          'literal',
+          'function',
+          'import',
+          'conditional',
+          'object',
+          'tuple',
+          'intersection',
+          'union',
+          'nullish',
+        ],
       },
     ],
     '@typescript-eslint/strict-boolean-expressions': 'error',

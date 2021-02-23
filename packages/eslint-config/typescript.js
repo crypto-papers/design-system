@@ -8,8 +8,8 @@
 const rules = [
   './rules/typescript/overrides',
   './rules/typescript/import',
-  './rules/typescript/typescript',
   './rules/typescript/extensions',
+  './rules/typescript/typescript',
   './rules/prettier/typescript',
 ].map(require.resolve);
 

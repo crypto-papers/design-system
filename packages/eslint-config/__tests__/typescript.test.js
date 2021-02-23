@@ -14,8 +14,8 @@ describe('TypeScript config', () => {
 
     expect(extension[0].endsWith('rules/typescript/overrides.js')).toStrictEqual(true);
     expect(extension[1].endsWith('rules/typescript/import.js')).toStrictEqual(true);
-    expect(extension[2].endsWith('rules/typescript/typescript.js')).toStrictEqual(true);
-    expect(extension[3].endsWith('rules/typescript/extensions.js')).toStrictEqual(true);
+    expect(extension[2].endsWith('rules/typescript/extensions.js')).toStrictEqual(true);
+    expect(extension[3].endsWith('rules/typescript/typescript.js')).toStrictEqual(true);
     expect(extension[4].endsWith('rules/prettier/typescript.js')).toStrictEqual(true);
   });
 
