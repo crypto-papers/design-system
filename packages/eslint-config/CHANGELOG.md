@@ -8,6 +8,49 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 _This sections lists changes committed to master since most recent release_
 
+## [v2.1.0](https://github.com/crypto-papers/design-system/tree/eslint-config%402.1.0/packages/eslint-config) 2021-02-23
+
+### Added:
+
+- TypeScript plugin rules missing from the config. Namely,
+  - `@typescript-eslint/ban-tslint-comment`
+  - `@typescript-eslint/consistent-indexed-object-style`
+  - `@typescript-eslint/consistent-type-import`
+  - `@typescript-eslint/dot-notation`
+  - `@typescript-eslint/lines-between-class-members`
+  - `@typescript-eslint/no-confusing-non-null-assertion`
+  - `@typescript-eslint/no-confusing-void-expression`
+  - `@typescript-eslint/no-duplicate-imports`
+  - `@typescript-eslint/no-implicit-any-catch`
+  - `@typescript-eslint/no-invalid-this`
+  - `@typescript-eslint/no-invalid-void-type`
+  - `@typescript-eslint/no-loop-func`
+  - `@typescript-eslint/no-loss-of-precision`
+  - `@typescript-eslint/no-redeclare`
+  - `@typescript-eslint/no-shadow`
+  - `@typescript-eslint/no-unnecessary-type-constraint`
+  - `@typescript-eslint/non-nullable-type-assertion-style`
+  - `@typescript-eslint/prefer-enum-initializers`
+  - `@typescript-eslint/prefer-literal-enum-member`
+  - `@typescript-eslint/sort-type-union-intersection-members`
+
+### Changed:
+
+- Set `@typescript-eslint/prefer-readonly-parameter-type` level to `warn` rather than `error`
+- Move definition of `@typescript-eslint/no-implied-eval` and `@typescript-eslint/no-throw-literal` rules into the extensions file
+- Explicitly disable `@typescript-eslint/object-curly-spacing` and `@typescript-eslint/space-infix-ops` as they are handled by Prettier
+- Disable the following base rules in the the TypeScript config to avoid conflicts with their TS equivalents
+  - `dot-notation`
+  - `lines-between-class-members`
+  - `no-duplicate-imports`
+  - `no-implied-eval`
+  - `no-invalid-this`
+  - `no-loop-func`
+  - `no-loss-of-precision`
+  - `no-redeclare`
+  - `no-shadow`
+  - `no-throw-literal`
+
 ## [v2.0.1](https://github.com/crypto-papers/design-system/tree/eslint-config%402.0.1/packages/eslint-config) 2021-02-20
 
 ### Fixed:
