@@ -613,6 +613,14 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@cryptopapers/conventional-changelog-preset@workspace:packages/conventional-changelog-preset":
+  version: 0.0.0-use.local
+  resolution: "@cryptopapers/conventional-changelog-preset@workspace:packages/conventional-changelog-preset"
+  dependencies:
+    q: ^1.5.1
+  languageName: unknown
+  linkType: soft
+
 "@cryptopapers/eslint-config@workspace:*, @cryptopapers/eslint-config@workspace:packages/eslint-config":
   version: 0.0.0-use.local
   resolution: "@cryptopapers/eslint-config@workspace:packages/eslint-config"

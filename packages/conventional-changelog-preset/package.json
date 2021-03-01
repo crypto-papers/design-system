@@ -1,0 +1,24 @@
+{
+  "name": "@cryptopapers/conventional-changelog-preset",
+  "version": "0.0.1",
+  "description": "Automated changelog generation conforming to the CryptoPapers style guide",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/crypto-papers/design-system/",
+    "directory": "packages/conventional-changelog-preset"
+  },
+  "keywords": [
+    "cryptopapers",
+    "conventional-changelog",
+    "preset"
+  ],
+  "author": "Marek Rewers",
+  "license": "MIT",
+  "dependencies": {
+    "q": "^1.5.1"
+  }
+}
